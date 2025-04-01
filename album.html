@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/album.css">
+    <script src="./scripts/utils.js"></script>
+    <link rel="icon" href="logo.png" type="image/x-icon">
+
+    <title>Title</title>
+</head>
+
+<body> <audio id="audio" loop>
+        <source src="./sounds/Humbe - Novatos.mp3" type="audio/mpeg">
+    </audio>
+    <div class="title">
+        <h1>Title h1</h1>
+    </div>
+
+    <div class="container">
+        <div class="box" id="carousel">
+        </div>
+    </div>
+    <div id="lyrics-container">
+        <div id="lyrics"></div>
+    </div>
+    <div class="controls">
+        <button onclick="rotateCarousel(-1)">◀</button>
+        <span id="counter">1 / 35</span>
+        <button onclick="rotateCarousel(1)">▶</button>
+    </div>
+
+
+    
+
+
+</body>
+
+</html>
